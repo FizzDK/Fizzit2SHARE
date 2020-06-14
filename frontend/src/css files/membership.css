@@ -1,0 +1,434 @@
+.price_sectionContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 100px 0px;
+}
+
+.single_purchaseWrapper {
+    position: relative;
+}
+
+.mp_wrapper {
+    width: auto;
+}
+
+.priceSection_subHeading {
+    font-weight: 500;
+    color: #303030;
+}
+
+.singlePlan_checkPoint {
+    position: relative;
+}
+
+
+
+.singlePlan_checkPoint>span {
+    padding-left: 27px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #919191;
+}
+
+.plan_checkbox {
+    position: absolute;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.carbon_container {
+    width: 200px;
+    height: 300px;
+    box-shadow: 4px 4px 10px rgb(200, 200, 200);
+    border-radius: 25px;
+    margin-top: 150px;
+    position: relative;
+}
+
+
+.carbon_container img {
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: auto;
+}
+
+
+.carbon_container>h4 {
+    padding-top: 50px;
+    color: #009EE2;
+    margin-bottom: 8px;
+}
+
+/* .carbon_container>sup {
+    position: absolute;
+    color: #2BC684;
+    font-weight: 600;
+}
+
+.carbon_container>span {
+    font-size: 38px;
+    padding-left: 15px;
+    color: #2BC684;
+    font-weight: 600;
+} */
+
+.carbon_container_price {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.carbon_container_price sup {
+    position: relative;
+    color: #009EE2;
+    font-weight: 500;
+    top: -20px;
+    left: -4px;
+}
+
+.carbon_container_price span {
+    font-size: 42px !important;
+    color: #009EE2;
+    font-weight: 600;
+}
+
+.priceSection_Button {
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 3px 28px;
+    border: 2px solid transparent;
+    border-radius: 35px;
+    background-color: #009EE2;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.membership_checkPoints {
+    text-align: left;
+    margin: 30px 0px 60px 150px;
+}
+
+.checkpoint_Wrapper {
+    margin: 9px 0;
+    position: relative;
+}
+
+.checkpoint_Wrapper>span {
+    padding-left: 35px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #919191;
+}
+
+.membership_plansContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ms_planContent {
+    width: 210px;
+    height: 300px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.16);
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 20px 0;
+}
+
+.ms_planContent img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: auto;
+}
+
+.ms_planContent>h4 {
+    color: #303030;
+    margin: 30px 0 9px;
+}
+
+.ms_planContent>p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.ms_planContent div.ms_plan_price {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.ms_planContent sup {
+    position: relative;
+    color: #009EE2;
+    font-weight: 500;
+    top: -20px;
+    left: -4px;
+}
+
+.ms_centered_card_dash {
+    position: relative;
+    width: 50px;
+    border: 1px solid #ffffff;
+    padding: 0px;
+    border-radius: 50px;
+    margin: 5px auto;
+}
+
+.ms_planContent .month-figure {
+    font-size: 42px !important;
+    /* padding-left: 15px; */
+    color: #009EE2;
+    font-weight: 600;
+}
+
+.ms_planContent .month {
+    font-size: 11px;
+    color: #303030;
+    font-weight: 500;
+}
+
+.ms_planBorder {
+    border-top: 1px solid #009EE2;
+    margin: 5px 16%;
+    padding: 1px;
+    opacity: 0.5;
+}
+
+.cartridgeStyle {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    padding-bottom: 7px !important;
+}
+
+.lover_custom {
+    width: 255px;
+    height: 355px;
+    margin-top: 0 !important;
+    color: #FFFFFF !important;
+    background-color: #009EE2 !important;
+}
+
+.customColor {
+    color: #FFFFFF !important;
+}
+
+@media (max-width: 960px) {
+    .lover_custom {
+        display: flex;
+        flex-direction: column;
+    }
+    .price_sectionContainer {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+       
+        width: 400px;
+        margin: 0 auto 50px auto;
+    }
+    .single_purchaseWrapper {
+        position: relative;
+        width: 100%;
+    }
+    .mp_wrapper {
+        width: 100%;
+    }
+
+    .priceSection_subHeading {
+        text-align: left;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .singlePlan_checkPoint {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .singlePlan_checkPoint>span {
+        font-size: 12px;
+        padding-left: 23px;
+        font-weight: 500;
+    }
+    .plan_checkbox {
+        top: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .carbon_container {
+        width: 95%;
+        height: 65px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 18px;
+        margin: 30px auto;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .carbon_container .ms_centered_card_dash {
+        display: none;
+    }
+
+    .mob-head-img-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .mob-head-img-container >h4 {
+        font-size: 15px;
+        padding-top: 2px;
+        margin-left: 5px;
+        color: #303030;
+        font-weight: 400;
+    }
+
+    .mob-head-img-container > img {
+        width: 30px;
+    }
+
+    .priceSection_Button {
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 3px 20px;
+        border: 2px solid transparent;
+        border-radius: 35px;
+        background-color: #009EE2;
+        color: #FFFFFF;
+        cursor: pointer;
+        outline: none;
+    }
+    .membership_checkPoints {
+        text-align: left;
+        margin: 10px 0px 60px 10px;
+    }
+    .checkpoint_Wrapper {
+        margin: 0px;
+        position: relative;
+    }
+    .checkpoint_Wrapper>span {
+        padding-left: 22px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #919191;
+    }
+    .membership_plansContainer {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 19px; */
+    }
+    .ms_planContent {
+        width: 90%;
+        height: 90px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 18px;
+        position: relative;
+        margin: 40px 4px;
+        display: flex;
+        padding: 20px 17px 30px;
+    }
+    .plan_left_section, .plan_right_section {
+        display: flex;
+        justify-content: space-around;
+        /* height: 100px; */
+    }
+    .plan_right_section {
+        position: relative;
+        top: -35px;
+    }
+    .plan_right_sec_btn {
+        transform: translateY(20px);
+    }
+    .ms_left_card_dash {
+        width: 30px !important;
+        border: 1px solid #ffffff;
+        padding: 0px;
+        border-radius: 50px;
+        margin: 0 0 5px 0;
+    }
+    .plan_left_section div {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+    .plan_left_section img {
+        position: static;
+        -webkit-transform: translateY(-20%);
+        transform: translateY(-20%);
+    }
+    .plan_left_section div h4 {
+        font-weight: bold;
+        color: #303030;
+        font-size: 17px;
+        margin: 0px 0 9px;
+        text-align: left;
+    }
+    .plan_left_section p {
+        text-align: left;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 500;
+        color: #303030;
+    }
+    .plan_right_section sup {
+        /* position: absolute; */
+        color: #009EE2;
+        font-weight: 500;
+    }
+    .plan_right_section .month-figure {
+        font-size: 46px !important;
+        color: #009EE2;
+    }
+    .plan_right_section .month {
+        top: 40px;
+    }
+    .cartridgeStyle {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding-bottom: 7px !important;
+    }
+    .lover_custom {
+        height: 120px !important;
+        margin-top: 0 !important;
+        color: #FFFFFF !important;
+        display: flex;
+        background-color: #009EE2 !important;
+    }
+    .popular_plan {
+        position: absolute;
+        top: -30px;
+        right: -30px;
+        width: 29%;
+        z-index: 3000;
+    }
+}
+
+@media (max-width: 630px) {
+    .membership_plansContainer {
+        position: relative;
+        left: -4px;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .carbon_container{
+        max-width: 430px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .price_sectionContainer {
+        padding: 0px 8px;
+        width: auto;
+    }
+}

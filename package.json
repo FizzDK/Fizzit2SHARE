@@ -1,0 +1,45 @@
+{
+  "name": "fizzwebshop",
+  "version": "1.0.0",
+  "description": "FizzIt WebShop ",
+  "main": "server.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@stripe/react-stripe-js": "^1.1.0",
+    "@stripe/stripe-js": "^1.3.0",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4",
+    "node-mailjet": "^3.3.1",
+    "path": "^0.12.7",
+    "query-string": "^6.11.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "stripe": "^8.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix frontend",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "set HTTPS=true&&npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Aswin Bandaru",
+  "license": "ISC"
+}

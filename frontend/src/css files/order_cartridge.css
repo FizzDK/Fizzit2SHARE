@@ -1,0 +1,459 @@
+
+.padding_30 {
+    padding: 30px 0;
+}
+
+
+.dash_pageContainer {
+    margin-left: 28%;
+    margin-bottom: 14%;
+    position: relative;
+}
+
+.dash_heading {
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    color: #303030;
+    margin: 10px 0;
+}
+.dash_left_border {
+    position: relative;
+    width: 40px;
+    top: -3px;
+    left: 2px;
+    border: 1.2px solid #009EE2;
+    float: left;
+}
+
+.display_flex {
+    position: relative;
+    display: flex;
+    justify-content: center;    
+}
+
+.section_content {
+    position: relative;
+    margin: 30px 0 15px !important;
+}
+
+.cart_sectionWrapper {
+    position: relative;
+    width: 75%;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.16);
+    margin: 40px 0 40px;
+    border-radius: 20px;
+    padding: 25px 40px;
+}
+
+
+.cart_icon {
+    position: relative;
+    align-self: center;
+    height: 18px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.prev_icon {
+    position: relative;
+    left: -20px;
+}
+
+.next_icon {
+    position: relative;
+    right: -0px;
+}
+
+
+.btn_styling {
+    position: relative;
+    padding-right:  34px;
+    color: #767676;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.btn_styling.btn-blue {
+    color: #009EE2;
+} 
+
+.btn_styling:focus {
+    color: #009EE2;
+}
+
+/* .btn_styling :focus {
+    background-color: #009EE2;
+    border-color: #009EE2;
+    color: white;
+} */
+
+.btn_styling > .date {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px !important;
+}
+
+.btn_styling  .month {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.btn_styling  .day {
+    font-weight: 400;
+    font-size: 10px;
+    position: relative;
+    padding-top: 5px;
+    left: 7px;
+}
+
+.timeWrapper  button {
+    background-color: white;
+    border: 1px solid darkgray;
+    width: 125px;
+    padding: 7px 0px;
+    margin-right: 23px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    color: gray;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.timeWrapper  button.btn-blue{
+    background-color: #009EE2;
+    color: white;
+}
+
+.timeWrapper button:focus {
+    background-color: #009EE2;
+    border-color: #009EE2;
+    color: white;
+}
+
+
+.chose_time {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.selected_delivery_slot {
+    font-size: 22px;
+    font-weight: 500;
+    color: #009EE2;
+}
+
+
+
+.selected_plan {
+    text-align: left;
+    padding: 0;
+}
+
+.selected_plan h3 {
+    color: #303030;
+    font-weight:500;
+    margin: 10px 0 5px;
+}
+
+.selected_plan p {
+    color: #303030;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.plan_price {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.plan_price span {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.plan_price p {
+    padding-top: 10px !important;
+    font-weight: 400;
+    color: #009EE2;
+    margin: 0;
+}
+
+
+.wouldYou {
+    margin-top: 90px;
+    margin-right: 180px;
+}
+
+.wouldYou h2 {
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 60px;
+    
+}
+
+.seePlans {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #009EE2;
+    border: 1.2px solid #009EE2;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.seePlans:hover {
+    color: white;
+    background-color: #009EE2;
+}
+
+
+
+.backup_details {
+    text-align: left;
+    position: relative;
+    padding-left: 40px !important;
+}
+
+.backup_check {
+    position: relative;
+    top: 29px;
+    left: -50px;
+}
+
+.backup_details > h4 {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    color: #303030;
+    margin: 0px;
+    margin-bottom: 15px !important;
+}
+
+.backup_details > p {
+    font-weight: 300;
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+
+.backup_price {
+    padding-top: 25px;
+}
+
+.order_summary{
+    position: relative;
+    width: 70%;
+    /* box-shadow: 0 1px 4px rgb(0, 0, 0, 0.16); */
+    margin: 20px 0 25px;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+
+.cart_section {
+    display: flex;
+    justify-content: space-between;
+}
+.cartWrapper {
+    position: relative;
+    
+}
+.cartWrapper img {
+    position: absolute;
+    left: -10px;
+    top: 20px;
+}
+.cartWrapper >  h4 {
+    font-size: 16px;
+    position: relative;
+    left: 15px;
+    font-weight: 500;
+    color: #303030;
+}
+
+.cart_input {
+    width: 25px ;
+    height: 25px;
+    text-align: center;
+    padding: 3px 1px;
+    cursor: default;
+    margin: 0 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif !important;
+    border-radius: 5px;
+    border: 1.2px solid #EAEAEA;
+}
+
+.zeroMargin h3, p {
+    margin: 0px !important;
+    font-weight: 600;
+}
+
+.delivery_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #303030;
+    padding-left: 15px;
+    
+}
+
+.delivery_section p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.summary_border {
+    border-top: 1px solid #EAEAEA;
+  }
+
+.total_summary {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+
+}
+
+.total_summary  h2 {
+    font-weight: 500;
+}
+
+.place_orderContainer {
+    margin: 30px 20% 30px 0;
+}
+
+.place_orderContainer span {
+    padding-left: 5px;
+    font-size: 13px;
+    color: #919191 !important;
+}
+
+.summary_link {
+    color: #919191 !important;
+}
+
+.place_order_link {
+    padding: 2px 10% ;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #009EE2;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    outline: none;
+}
+
+.place_order_link:hover {   
+     background-color: rgb(2, 141, 187) ;
+
+}
+
+
+.delivery_payment_container {
+    position: relative;
+    width: 100%;
+    margin: 0px 0 25px;
+    border-radius: 15px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.delivery_address{
+    text-align: left;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top: 30px;
+    margin-right: 95px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.delivery_address > span {
+    font-size: 14px;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+.delivery_address > button {
+    float: right;
+    position: relative;
+    font-family: 'Open Sans', sans-serif !important;
+    top: 5px;
+    background-color: white;
+    color: #009EE2;
+    font-weight: 500;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.delivery_address > p {
+    margin: 0;
+    color: darkgray;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.delivery_innerWrrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.delivery_payment {
+    text-align: left;
+    position: relative;
+    width: 340px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top: 30px;
+    /* margin-left: 130px; */
+    border-radius: 10px;
+    padding:  20px 30px 40px;
+    background-color: silver;
+
+}
+
+.paymentContainer > span {
+    font-size: 11px;
+    position: absolute;
+    left: 55px;
+}
+
+.delivery_payment button {
+    float: right;
+    position: relative;
+    top: -10px;
+    background-color: white;
+    color: #009EE2;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.card_title {
+    position: relative;
+    top: -20px;
+    left: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #303030;
+}
+.card_number {
+    position: relative;
+    top: -20px;
+    left: 58px;
+    font-size: 11px;
+    color: #303030;
+}

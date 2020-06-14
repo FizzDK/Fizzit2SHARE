@@ -1,0 +1,358 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@keyframes App-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  position: relative;
+  opacity: 0;
+  animation-delay: 0.2s;
+  animation-name: App-opacity;
+  /* animation-duration: 5s; */
+  animation-fill-mode: forwards;
+}
+
+.css-1sugtjn {
+  z-index: 10000 !important;
+}
+
+.custom_checkbox {
+  position: relative;
+}
+
+.custom_checkbox label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 24px;
+  left: -40px;
+  position: absolute;
+  top: 20px;
+  width: 24px;
+}
+
+.custom_checkbox label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 6px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.custom_checkbox input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.custom_checkbox input[type="checkbox"]:checked+label {
+  background-color: #009EE2;
+  border-color: #009EE2;
+}
+
+.custom_checkbox input[type="checkbox"]:checked+label:after {
+  opacity: 1;
+}
+
+.margin25 {
+  margin: 20px 75px;
+}
+
+.topMargin-30 {
+  margin-top: 110px;
+}
+
+.padding-30 {
+  padding: 0 30px;
+}
+
+.welcome_fizzit {
+  position: fixed;
+  z-index: 10000;
+  background-image: url('./Icons/Fizzit.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  transition: ease 1s !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome_fizzit h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.welcome_fizzit img {
+  width: 300px;
+}
+
+.Bottom_Border {
+  border-bottom: 1px solid #78C6FB;
+  padding: 1px 0;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+
+/* @-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+/* @-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+@keyframes fadeIn {
+  0%, 100% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0%, 100% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0%, 100% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.spacer {
+  flex: 1;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-heading {
+  color: #303030;
+  font-weight: 400 !important;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.centered_border {
+  position: relative;
+  top: -12px !important;
+  border: 2px solid #009EE2;
+  border-radius: 10px !important;
+  margin-left: 47% !important;
+  margin-right: 47% !important;
+}
+
+.wavy_bannerWrapper {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.desktop_banner {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+
+.mobile_banner {
+  display: none;
+}
+
+.for_desktop_only {
+  display: inherit;
+}
+
+.for_mobile_only {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .welcome_fizzit h1 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .section-heading {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    margin-top: 10px !important;
+  }
+  .centered_border {
+    margin-left: 40% !important;
+    margin-right: 40% !important;
+  }
+  .wavy_bannerWrapper {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+  }
+  .desktop_banner {
+    display: none;
+  }
+  .mobile_banner {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    display: block !important;
+  }
+  .for_desktop_only {
+    display: none;
+  }
+  .for_mobile_only {
+    display: block;
+  }
+}
+
+.left_border {
+  /* display: block; */
+  position: relative;
+  top: -13px !important;
+  border: 2px solid #009EE2;
+  border-radius: 30px;
+  margin-left: 0%;
+  margin-right: 89% !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button[disabled] {
+  opacity: .5;
+}

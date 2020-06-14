@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+.contact_pageContainer {
+    margin-top: 130px;
+}
+
+.check_out {
+    font-size: 16px;
+    color: #303030;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.faq_link {
+    text-decoration: none;
+    color: #009EE2;
+    font-weight: 500;
+}
+
+.contact_sectionContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.cs_heading {
+    padding: 20px 0 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.contact_form {
+    position: relative;
+    top: 20%;
+    margin-left: 180px;
+    flex: 1;
+    width: 75%;
+    max-width: 450px;
+}
+
+.contact_form input, textarea {
+    position: relative;
+    left: -20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E5F4FF;
+    border: none;
+    padding: 12px;
+    margin: 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.contact_form textarea {
+    min-height: 110px;
+    max-height: 140px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.contact_form button {
+    float: left;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: #009EE2;
+    border: 1.6px solid #009EE2;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 7px 30px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.contact_form button:hover {
+    background-color: #009EE2;
+    color: white;
+}
+
+.contact_detials {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 50px 0;
+}
+
+.contact_content {
+    margin: 0 20px;
+    color: #009EE2;
+    text-align: left;
+}
+
+.contact_content span {
+    position: relative;
+    top: -2px;
+}
+
+.contact_content img {
+    padding-right: 10px;
+    width: auto;
+    height: 18px;
+}
+
+.con_icon {
+    margin-left: 50px;
+    padding-right: 20px;
+}
+
+.contact_illustration {
+    flex: 1;
+}
+
+.contact_illustration img {
+    /* position: relative; */
+    width: 74%;
+    float: right;
+    /* bottom: 0;
+    margin-top: 60px; */
+}
+
+.for_mobile_only {
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .contact_form {
+        top: 5%;
+        margin-left: 130px;
+    }
+    .contact_sectionContainer {
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .contact_form {
+        top: 0;
+        margin-left: 100px;
+    }
+    .contact_sectionContainer {
+        margin-top: 30px;
+    }
+    .contact_illustration img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 960px) {
+    .check_out {
+        font-size: 13px;
+        color: #303030;
+        font-weight: 500;
+        padding-top: 20px;
+    }
+    .cs_heading {
+        padding: 15px 0 0;
+        font-size: 15px;
+    }
+    .contact_sectionContainer {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .contact_form {
+        margin: 13% auto 0 auto;
+        flex: 1;
+    }
+    .contact_form button {
+        left: 38px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .contact_illustration {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_illustration img {
+        width: 55%;
+        height: 55%;
+        margin-top: -50px;
+    }
+    .for_mobile_only {
+        display: block;
+    }
+    .contact_detials {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 80px; */
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        left: 10vw;
+    }
+    .contact_content {
+        margin: 10px 0px;
+        padding: 0 !important;
+    }
+    .contact_content span {
+        margin: 0;
+        font-size: 12px;
+        position: relative;
+        top: -4px;
+    }
+    .contact_content img {
+        margin: 0;
+        float: left;
+        width: auto;
+        height: 18px;
+    }
+}
+
+@media (max-width: 560px) {
+    .contact_detials {
+        margin-top: 0px;
+    }
+    .contact_illustration img.phone_img {
+        width: 50%;
+        height: 50%;
+    }
+    .contact_form input,.contact_form textarea {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}

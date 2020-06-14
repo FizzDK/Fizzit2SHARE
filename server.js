@@ -17,10 +17,6 @@ const		corsOptions		=		{
 app.use(bodyParser.json());
 app.use(cors(corsOptions));
 app.use(cookieParser(process.env.COOKIESECRET));
-app.use(`/FormSub`,require(`./routes/Comms/FormSub`));
-app.use(`/Tilmeld`,require(`./routes/register`));
-app.use(`/users/auth`,require(`./routes/user/auth`));
-app.use(`/users/info`,require(`./routes/user/info`));
 app.use(`/users/order`,require(`./routes/user/customer/orders/order`));
 // app.use(`/users/account`,require(`./routes/user/account`));
 
@@ -42,9 +38,9 @@ monGoose.connection.on('error', err => {
   });
 
 if (process.env.NODE_ENV === 'PRODUCTION'){
-	app.use(exPress.static(`fizzit/build`));
+	app.use(exPress.static(`frontend/build`));
 	app.get(`*`, function(request, response){
-		response.sendFile(path.resolve(__dirname,'fizzit','build','index.html'))
+		response.sendFile(path.resolve(__dirname,'frontend','build','index.html'))
 	})
 }
 

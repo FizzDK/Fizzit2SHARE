@@ -1,0 +1,216 @@
+.faq_pageContainer {
+    margin-top: 130px;
+}
+
+.faq_sectionContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.faq_image {
+    width: 50%;
+}
+
+.faq_image img {
+    width: 50%;
+}
+
+.faq_heading {
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+.faq_heading>h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #009EE2;
+}
+
+.faq_heading>p {
+    font-size: 15px;
+    max-width: 380px;
+    margin: 0 auto !important;
+    font-weight: 400;
+    color: #767676;
+}
+
+.faqs_container {
+    display: flex;
+    justify-content: center;
+}
+
+.faqs {
+    width: 45%;
+    margin: 100px 0 0 0;
+    position: relative;
+    text-align: left;
+}
+
+.faqWrapper {
+    position: relative;
+    padding: 15px 3% 25px 70px;
+    min-height: 50px;
+}
+
+.question {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    color: #303030;
+    padding: 0 20px 0;
+    line-height: 23px !important;
+    cursor: pointer;
+}
+
+.faq_border {
+    width: 100%;
+    border-bottom: 1.5px solid gainsboro;
+    padding-top: 1.5px;
+}
+
+.faq_icon {
+    cursor: pointer;
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    padding: 20px 0;
+}
+
+.custom_icon {
+    top: 18px;
+}
+
+.answer {
+    height: auto;
+    opacity: 1;
+    position: relative;
+    font-size: 14px;
+    color: #767676;
+    font-weight: 500;
+    padding: 20px 20px 0;
+    transition: height, opacity .2s cubic-bezier(.165, .84, .44, 1);
+}
+
+.answer_hidden {
+    font-size: 0;
+    height: 0;
+    opacity: 0;
+    transition: height, opacity .2s cubic-bezier(.165, .84, .44, 1);
+}
+
+.last_faq {
+    top: -15px;
+    line-height: 23px !important;
+}
+
+.cant_find {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.more_welcome {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+@media(max-width: 1200px) {
+    .faqs {
+        width: 55%;
+    }
+}
+
+@media(max-width: 960px) {
+    .faq_pageContainer {
+        margin-top: 30px;
+    }
+    .faq_sectionContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: space-evenly; */
+    }
+    .faq_image {
+        width: 70%;
+    }
+    .faq_image img {
+        width: 100%;
+        max-width: 380px;
+    }
+    .faq_heading {
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+    .faq_heading>h1 {
+        font-size: 35px;
+        font-weight: 600;
+        color: #009EE2;
+    }
+    .faq_heading>p {
+        max-width: 300px;
+        padding: 0 70px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #767676;
+    }
+    .faqs_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .faqs {
+        width: 85%;
+        max-width: 450px;
+        margin: 70px auto 0px;
+        position: relative;
+        text-align: left;
+    }
+    .faqWrapper {
+        padding: 15px 3% 25px 50px;
+    }
+    .faq_border {
+        width: 100%;
+        border-bottom: 1px solid gainsboro;
+        padding-top: 1px;
+    }
+    .faq_icon {
+        width: 6% !important;
+        position: absolute;
+        left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .custom_icon {
+        top: 18px;
+    }
+    .faq span {
+        position: absolute;
+        font-size: 11px;
+        font-weight: 600;
+        padding-left: 20px;
+        padding-top: 0px;
+        line-height: 17px;
+    }
+    .custom_faq {
+        position: relative;
+        left: 30px;
+        font-size: 11px;
+        color: darkgray;
+        font-weight: 600;
+        padding-left: 2px;
+        margin-right: 35px !important;
+    }
+    .last_faq {
+        top: -15px;
+        line-height: 10px;
+    }
+    .cant_find {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .more_welcome {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

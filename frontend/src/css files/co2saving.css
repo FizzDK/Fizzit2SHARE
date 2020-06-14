@@ -1,0 +1,58 @@
+
+
+.co2_contentWrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    border-radius: 10px;
+    margin: 50px 0 ;
+}
+
+.tree_hunger h3 {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #303030;
+    text-align: left;
+}
+
+.tree_hunger p {
+    font-size: 12px;
+    text-align: left;
+    color: #767676;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.unsubscribe {
+    background-color: white;
+    color: #009EE2;
+    border: 1.2px solid #009EE2;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 26px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 15px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.unsubscribe:hover {
+    color: white;
+    background-color: #009EE2;
+}
+
+.how_much_saved {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 25%;
+}
+
+.how_much_saved h1 {
+    font-weight: 600;
+    color: #303030;
+    font-size: 28px;
+    width: 70%;
+    text-align: center;
+}

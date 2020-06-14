@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="595.28pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="841.89pt" viewBox="0 0 595.28 841.89" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="Clip0">
+   <path d="M0 0 L457.89 0 L457.89 665.1 L0 665.1 L0 0 Z" transform="translate(54.75, 44)"/>
+  </clipPath>
+  <clipPath id="Clip1">
+   <path d="M0 0 L457.89 0 L457.89 665.1 L0 665.1 L0 0 Z" transform="translate(54.75, 44)"/>
+  </clipPath>
+ </defs>
+ <g id="Background">
+  <g id="Copy of Group212" clip-path="url(#Clip0)">
+   <g id="Copy of Group211" clip-path="url(#Clip1)">
+    <path style="fill:#009ee2; fill-rule:evenodd;stroke:none;" d="M416.777 267.347 L201.633 639.981 C195.175 651.165 176.139 665.1 157.65 654.426 L18.4676 574.07 C0 563.408 2.56556 539.968 9.02472 528.781 L224.168 156.146 C249.519 112.238 334.77 111.612 352.563 80.7932 C364.96 59.3249 374.569 42.7206 379.252 34.6118 C381.241 31.5511 385.33 30.6751 388.399 32.6527 L391.642 34.5263 L410.144 2.48384 C411.404 0.554657 413.981 0 415.922 1.24066 L455.061 23.837 C457.092 24.9049 457.89 27.4044 456.852 29.4512 L438.353 61.4936 L441.615 63.3777 C444.858 65.0577 446.13 69.0456 444.456 72.2914 C439.782 80.3843 430.163 97.0045 417.776 118.457 C399.961 149.273 442.128 223.439 416.777 267.347 Z" transform="translate(54.75, 44)"/>
+   </g>
+  </g>
+ </g>
+</svg>

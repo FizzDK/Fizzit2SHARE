@@ -1,0 +1,251 @@
+.footer_sectionContainer {
+    height: 275px;
+    position: relative;
+    z-index: 200 !important;
+    background-color: #009EE2;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    margin: 0 180px;
+}
+
+.footer_content>div {
+    margin: 0 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.language>h4 {
+    font-weight: 400;
+}
+
+.ft_social_icons {
+    position: relative;
+    right: 0;
+}
+
+.ft_social_icons>h4 {
+    font-weight: 400;
+}
+
+.ft_social_icons img {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ft_social_icons img.facebook_icon {
+    margin-left: -10px;
+}
+
+.fizzit_logo {
+    padding-top: 25px;
+}
+
+.contact>h4 {
+    font-weight: 400;
+}
+
+.contact>div {
+    margin-top: 10px;
+}
+
+.contact>div>span {
+    font-size: 12px;
+    position: relative;
+    bottom: 4px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.address>h4 {
+    font-weight: 400;
+}
+
+.address>p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.ft_bottom_section {
+    margin: 0 180px;
+}
+
+.ft_bottom_content {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.ft_bottom_content p {
+    color: #FFFFFF;
+    font-size: 11px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.ft_bottom_privacy, .ft_bottom_conditions {
+    cursor: pointer;
+}
+
+@media(max-width: 1350px) {
+    .footer_content {
+        margin: 0 100px;
+    }
+    .ft_bottom_section {
+        margin: 0 100px;
+    }
+}
+
+
+@media(max-width: 1020px) {
+    .footer_content {
+        margin: 0 30px;
+    }
+    .ft_bottom_section {
+        margin: 0 30px;
+    }
+}
+
+@media(max-width: 960px) {
+    .footer_sectionContainer {
+        height: 100%;
+        z-index: 200;
+        background-color: #009EE2;
+        /* padding: 0 30px; */
+    }
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 10px;
+        width: auto;
+    }
+    .footer_content>div {
+        margin: 20px 0px 0 0px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .fizzit_logo {
+        align-self: center;
+        padding-top: 5px;
+    }
+    .mobile_ft_custom {
+        display: flex;
+    }
+    .mobile_ft_custom div {
+        padding: 10px 25px 10px 0;
+    }
+    .language>h4 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .ft_social_icons {
+        position: absolute;
+    }
+    .ft_social_icons>h4 {
+        padding-left: 14px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .contact>h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .contact>div {
+        margin-top: 10px;
+    }
+    .contact>div>span {
+        font-size: 14px;
+        position: relative;
+        bottom: 4px;
+        font-weight: 300;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .address>h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .address>p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+    .ft_bottom_section {
+        padding: 25px 0;
+    }
+    .ft_bottom_content {
+        display: flex;
+        justify-content: center;
+        padding-top: 18px;
+    }
+    .ft_bottom_content p {
+        color: #FFFFFF;
+        font-size: 11px;
+        padding: 0 5px;
+        font-weight: 300;
+    }
+}
+
+/*  language toggle   */
+
+.navbar_dropdown {
+    display: block;
+    height: 50px;
+    opacity: 1;
+    transition: all .2s cubic-bezier(.165, .84, .44, 1);
+}
+
+.navbar_dropdown_hidden {
+    height: 0;
+    opacity: 0;
+    transition: all .2s cubic-bezier(.165, .84, .44, 1);
+}
+
+.navbar_dropdown_items {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.navbar_dropdown_item_one, .navbar_dropdown_item_two {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar_dropdown_item_two {
+    top: 20px;
+}
+
+.navbar_dropdown_item_one:hover, .navbar_dropdown_item_two:hover {
+    color: #e5e5e5;
+}
+
+.language_toggle {
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.language_toggle img {
+    position: relative;
+    top: 5px;
+    margin-left: 16px;
+    transition: all .2s cubic-bezier(.165, .84, .44, 1);
+}
+
+.language_toggle_rotate_img {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,95 @@
+.header_container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px #00000017;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0 7px;
+    margin: -20px 0 0;
+    z-index: 2000;
+}
+
+.login_header_custom {
+    position: absolute;
+    width: 100%;
+    padding: 30px 0 7px;
+    margin: -20px 0 0;
+    z-index: 20;
+}
+
+.home_header_custom {
+    position: sticky;
+    top: -20px;
+    padding: 30px 0 7px;
+    margin: -20px 0 0;
+    z-index: 2000;
+}
+
+.nav_wrapper {
+    position: relative;
+    flex: 2 !important;
+    margin: 10px 0 0px;
+    text-align: right;
+}
+
+.nav_link {
+    margin-left: 60px;
+    text-decoration: none;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0 5px;
+}
+
+@media (max-width: 1120px) {
+    .nav_link {
+        margin-left: 35px;
+    }
+}
+
+.active {
+    color: #009EE2;
+}
+
+.order_link {
+    padding: 4px 15px;
+    border: none;
+    border-radius: 35px;
+    background-color: #009EE2;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.rounded-link:hover {
+    background-color: rgb(2, 141, 187);
+}
+
+.member_icon {
+    top: 11px;
+    position: relative;
+}
+
+.header_content {
+    padding: 0 50px;
+    display: flex;
+}
+
+.login_order_link {
+    background-color: #009EE2;
+    color: #FFFFFF;
+}
+
+.home_order_link {
+    /* background-color: #009EE2 ; */
+    color: #009EE2/*!important;*/
+}
+
+.scroll_order {
+    color: #FFFFFF !important;
+}

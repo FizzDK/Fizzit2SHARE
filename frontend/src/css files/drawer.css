@@ -1,0 +1,72 @@
+.desk_sideDrawerContainer {
+    position: fixed;
+    top: 80px;
+    margin: 8px 0 0;
+    margin-left: -15px;
+    width: 320px;
+    height: 550px;
+    max-height: 100vh;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    outline: none;
+    background-color: #FFFFFF;
+    z-index: 50;
+}
+
+.user_profileWrapper {
+    margin-top: 30px;
+    position: relative;
+}
+
+.user_profileWrapper>h4 {
+    color: #303030;
+    font-weight: 400;
+}
+
+.image--cover {
+    width: 130px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.16);
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center left;
+}
+
+ul {
+    padding: 0px;
+    width: 300px;
+    display: table;
+}
+
+.drawer_linkWrapper {
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-top: 22px;
+    list-style-type: none;
+}
+
+.link_icon {
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+
+.drawer_link {
+    margin: 0px !important;
+    padding: 15px 50px 10px 80px;
+    text-decoration: none;
+    /* width: 350px !important; */
+    font-weight: 400;
+    font-size: 13px;
+    color: #919191;
+}
+
+.drawer_activelink {
+    color: #009EE2;
+    background-color: #E5F4FF;
+    font-weight: 500;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
